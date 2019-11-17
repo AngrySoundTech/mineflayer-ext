@@ -1,0 +1,26 @@
+{
+  "name": "mineflayer-ext",
+  "version": "1.0.0",
+  "description": "Mineflayer Extensions",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TritanMC/mineflayer-ext.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TritanMC/mineflayer-ext/issues"
+  },
+  "homepage": "https://github.com/TritanMC/mineflayer-ext#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.8",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.2"
+  }
+}
