@@ -10,17 +10,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TritanMC/mineflayer-ext.git"
+    "url": "git+https://github.com/AngrySoundTech/mineflayer-ext.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/TritanMC/mineflayer-ext/issues"
+    "url": "https://github.com/AngrySoundTech/mineflayer-ext/issues"
   },
-  "homepage": "https://github.com/TritanMC/mineflayer-ext#readme",
+  "homepage": "https://github.com/AngrySoundTech/mineflayer-ext#readme",
   "devDependencies": {
     "@types/node": "^12.12.8",
+    "mineflayer": "^2.10.0",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.7.2"
+  },
+  "peerDependencies": {
+    "mineflayer": "^2.x"
   }
 }
